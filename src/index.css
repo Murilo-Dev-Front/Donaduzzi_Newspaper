@@ -6,7 +6,7 @@
   --bg-color: #d4d4ee;
   --text-color: #5f5f79;
   --bg-sec-color: #babad8;
-  --input-color: #757585;
+  --input-color: #a1a1be;
   --global-padding-small: 5vh;
   --global-padding-medium: 10vh;
   --global-padding-big: 20vh;
@@ -47,7 +47,7 @@ h3 {
 input {
   font-weight: bold;
   color: var(--text-color);
-  background-color: var(--bg-sec-color);
+  background-color: var(--input-color);
   font-family: "Figtree", monospace;
   border: 0;
   margin: 10px;
