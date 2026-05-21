@@ -6,9 +6,6 @@ import NotFound from './Pages/notFound/notFound'
 import NewsFeed from './Pages/newsFeed/newsFeed'
 
 function App() {
-
-  
-
   return (
     <main className={"mainpanel maincontainer"}>
       <Routes>
