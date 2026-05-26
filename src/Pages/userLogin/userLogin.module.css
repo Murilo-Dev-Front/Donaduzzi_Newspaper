@@ -7,32 +7,65 @@
     width: 40%;
     height: 100%;
 }
+
 .contents {
     justify-content: center;
     align-items: center;
+
 }
+
 .field {
-    width: 70%;
+    width: 100%;
+    margin: 0;
 }
+
 .msg {
-   font-size: 4rem;
-   margin: 0px;
+    font-size: 4rem;
+    margin: 0px;
 }
+
 .textDescription {
     font-size: 1rem;
 }
 
 .separationSection {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: 5px;
+    width: 15em;
+    margin: 0px;
     background-color: var(--bg-sec-color);
+    padding: 10px;
 }
+
 .title {
     display: flex;
     margin: 0px;
     font-size: small;
+}
+
+.signinbutton {
+    margin: 20px;
+}
+
+.overflowInnercontent {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+
+}
+.circlee {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.fieldcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5px;
 }

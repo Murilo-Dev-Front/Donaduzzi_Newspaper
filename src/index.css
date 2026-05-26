@@ -16,6 +16,7 @@
   --global-gap-small: 10px;
   --global-gap-medium: 20px;
   --global-gap-big: 30px;
+    font-family: "Figtree", monospace;
 }
 
 body {
@@ -25,20 +26,18 @@ body {
 }
 
 h1 {
-  font-family: "Figtree", monospace;
+
   font-weight: bold;
   color: var(--text-color);
   user-select: none;
   font-size: var(--global-fontsize-big);
 }
 h2 {
-  font-family: "Figtree", monospace;
   font-weight: lighter;
   color: var(--text-color);
   user-select: none;
 }
 h3 {
-  font-family: "Figtree", monospace;
   font-weight: bold;
   color: var(--text-color);
   opacity: .7;
@@ -48,9 +47,8 @@ input {
   font-weight: bold;
   color: var(--text-color);
   background-color: var(--input-color);
-  font-family: "Figtree", monospace;
   border: 0;
   margin: 10px;
-  text-align: center;
+  text-align: start;
 }
 input::placeholder { color: var(--text-color); opacity: .4; }
