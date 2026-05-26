@@ -1,1 +1,1 @@
-este e o site do colegio ta ligadu manu caraiu
+colegio

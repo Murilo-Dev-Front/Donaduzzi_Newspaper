@@ -1,5 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import UserRegister from './Pages/userRegister/userRegister'
 import UserLogin from './Pages/userLogin/userLogin'
 import UserProfile from './Pages/userProfile/userProfile'
 import NotFound from './Pages/notFound/notFound'
@@ -10,6 +11,7 @@ function App() {
     <main className={"mainpanel maincontainer"}>
       <Routes>
         <Route path='/feed' element={<NewsFeed />} />
+        <Route path='/register' element={<UserRegister />} />
         <Route path='/login' element={<UserLogin />} />
         <Route path='*' element={<NotFound />} />
         <Route path='/profile' element={<UserProfile />} />

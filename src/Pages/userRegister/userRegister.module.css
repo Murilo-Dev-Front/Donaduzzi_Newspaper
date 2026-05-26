@@ -50,7 +50,7 @@
     font-size: small;
 }
 
-.loginbutton {
+.signinbutton {
     opacity: 1;
     font-weight: bold;
     margin: 20px;
@@ -59,7 +59,7 @@
     background-color: var(--primary-color);
     transition: padding ease-out 0.2s, opacity ease-out 0.2s;
 }
-.loginbutton:hover {
+.signinbutton:hover {
     opacity: 0.7;
     padding: 2vh;
 }
@@ -85,11 +85,4 @@
     width: 100vw;
     height: 100vh;
     opacity: 0.07;
-}
-.linkfooter {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
 }
