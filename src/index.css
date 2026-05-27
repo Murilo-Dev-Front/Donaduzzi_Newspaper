@@ -3,8 +3,8 @@
 
 
 :root {
-  --primary-color: #4b4bff;
-  --secondary-color: #ffbb33;
+  --primary-color: #2a2e83;
+  --secondary-color: #ffdd00;
   --bg-color: #d4d4ee;
   --text-color: #5f5f79;
   --bg-sec-color: #c1c1e4;
@@ -22,7 +22,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
 }

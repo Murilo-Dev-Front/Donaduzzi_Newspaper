@@ -5,4 +5,7 @@
 }
 .maincontainer {
   background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

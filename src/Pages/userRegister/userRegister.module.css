@@ -22,10 +22,10 @@
 .msg {
     font-size: 4rem;
     margin: 0px;
-    transition: margin ease-in-out .2s,font-size ease-in-out .2s;
+    transition: opacity ease-in-out .2s
 }
 .msg:hover {
-    margin-bottom: 10px;
+    opacity: .8;
 }
 .textDescription {
     font-size: .7rem;
@@ -41,7 +41,7 @@
     width: 15em;
     margin: 0px;
     background-color: var(--bg-sec-color);
-    padding: 10px;
+    padding: 8px;
 }
 
 .title {
@@ -55,21 +55,21 @@
     font-weight: bold;
     margin: 10px;
     color: white;
-    padding: 1vh;
+    padding: 8px;
     background-color: var(--primary-color);
     transition: padding ease-out 0.2s, opacity ease-out 0.2s;
 }
 .signinbutton:hover {
     opacity: 0.7;
-    padding: 2vh;
+    padding: 14px;
 }
 .overflowInnercontent {
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     overflow: hidden;
 }
 
@@ -78,13 +78,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 5px;
+    margin: 8px;
 }
 .signinfooter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 8px;
 }
 .blob {
     position: absolute;

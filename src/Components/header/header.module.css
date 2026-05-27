@@ -1,0 +1,18 @@
+.headerbody {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--bg-sec-color);
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo {
+    width: 15vw;
+    margin: 10px;
+    transition: margin-left ease-in-out .2s;
+}
+.logo:hover {
+    margin-left: 16px;
+}

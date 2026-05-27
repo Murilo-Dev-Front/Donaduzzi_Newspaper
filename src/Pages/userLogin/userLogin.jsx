@@ -25,13 +25,10 @@ const UserLogin = ({ Field }) => {
                         <Field
                             title="insira sua senha"
                             type="text"
-                            placeholder="password"
+                            placeholder="senha"
                             icon={passwordicon}
                         />
                         <section className={styles.midsection}>
-                            <p className={styles.rememberme}>lembrar de mim</p>
-                            <input type="checkbox">
-                            </input>
                             <Link className={styles.passwordlink} to={"/login/passwordreset"}>esqueceu sua senha?</Link>
                         </section>
                         <section className={styles.loginfooter}>
