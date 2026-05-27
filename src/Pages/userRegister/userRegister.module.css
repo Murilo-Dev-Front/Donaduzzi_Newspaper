@@ -53,7 +53,7 @@
 .signinbutton {
     opacity: 1;
     font-weight: bold;
-    margin: 20px;
+    margin: 10px;
     color: white;
     padding: 1vh;
     background-color: var(--primary-color);
@@ -79,6 +79,12 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 5px;
+}
+.signinfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 .blob {
     position: absolute;
