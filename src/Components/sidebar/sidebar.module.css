@@ -1,0 +1,15 @@
+.contents {
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+}
+.sidebarbody {
+    width: 20vw;
+    height: 100vh;
+    background-color: transparent;
+    transition: background-color ease-in-out .2s;
+    z-index: 1;
+}
+.sidebarbody:hover {
+    background-color: var(--bg-sec-color);
+}

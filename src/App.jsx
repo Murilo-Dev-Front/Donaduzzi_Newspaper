@@ -9,6 +9,7 @@ import NewsFeed from './Pages/newsFeed/newsFeed'
 //components
 import HeaderComp from './Components/header/header'
 import InputField from './Components/log/inputField'
+import Sidebar from './Components/sidebar/sidebar'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <header>
         <HeaderComp></HeaderComp>
       </header>
+      <Sidebar/>
       <Routes>
         <Route path='/feed' element={<NewsFeed />} />
         <Route path='/register' element={<UserRegister
