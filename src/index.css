@@ -31,21 +31,20 @@ h1 {
 
   font-weight: bold;
   color: var(--text-color);
-  user-select: none;
   font-size: var(--global-fontsize-big);
 }
 
 h2 {
   font-weight: lighter;
   color: var(--text-color);
-  user-select: none;
+
 }
 
 h3 {
   font-weight: bold;
   color: var(--text-color);
   opacity: .7;
-  user-select: none;
+
 }
 
 input {
@@ -76,4 +75,10 @@ a {
 }
 p {
     color: var(--text-color);
+}
+img {
+  -webkit-user-drag: none;  
+  -khtml-user-drag: none;   
+  -moz-user-drag: none;     
+  -o-user-drag: none;             
 }

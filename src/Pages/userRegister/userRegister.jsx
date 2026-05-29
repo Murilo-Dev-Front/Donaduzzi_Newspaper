@@ -3,6 +3,7 @@ import { useState } from 'react'
 import json from './userRegister.json'
 import emailicon from '/envelope.svg'
 import passwordicon from '/lockclosed.svg'
+import usernameicon from '/hashtag.svg'
 
 const UserRegister = ({ Field }) => {
     return (
@@ -27,6 +28,12 @@ const UserRegister = ({ Field }) => {
                             type="text"
                             placeholder="senha"
                             icon={passwordicon}
+                        />
+                        <Field
+                            title="insira sua nome"
+                            type="text"
+                            placeholder="nome de usuário"
+                            icon={usernameicon}
                         />
                         <section className={styles.signinfooter}>
                             <button className={styles.signinbutton}>CRIAR MINHA CONTA</button>

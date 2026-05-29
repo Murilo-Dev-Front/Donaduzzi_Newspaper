@@ -1,15 +1,42 @@
 .contents {
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     position: absolute;
 }
-.sidebarbody {
-    width: 20vw;
-    height: 100vh;
+.sidebarcontainer {
+    width: 15vw;
+    height: 90vh;
     background-color: transparent;
-    transition: background-color ease-in-out .2s;
     z-index: 1;
 }
-.sidebarbody:hover {
+.sidebarup {
+    transform: translateY(-95%);
+}
+.sidebardown {
+    transform: translateY(0%);
+}
+.sidebarbody {
+    width: 100%;
+    height: 100%;
     background-color: var(--bg-sec-color);
+    display: flex;
+    align-items: flex-end;
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
+.arrowbutton {
+    background-color: var(--bg-sec-color);
+    width: 100%;
+    height: 5vh;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowicon {
+    height: 80%;
+    opacity: 0.2;
+    transition: rotate cubic-bezier(0.075, 0.82, 0.165, 1) .7s;
+}
+.arrowiconbardown {
+    rotate: 180deg;
 }
