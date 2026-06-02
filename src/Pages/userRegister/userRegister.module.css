@@ -7,18 +7,14 @@
     width: 40%;
     height: 100%;
 }
-
 .contents {
     justify-content: center;
     align-items: center;
-
 }
-
 .field {
     width: 100%;
     margin: 0;
 }
-
 .msg {
     font-size: 4rem;
     margin: 0px;
@@ -31,9 +27,7 @@
     font-size: .7rem;
     text-align: center;
 }
-
 .separationSection {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,13 +37,11 @@
     background-color: var(--bg-sec-color);
     padding: 8px;
 }
-
 .title {
     display: flex;
     margin: 0px;
     font-size: small;
 }
-
 .signinbutton {
     opacity: 1;
     font-weight: bold;
@@ -61,7 +53,7 @@
 }
 .signinbutton:hover {
     opacity: 0.7;
-    padding: 14px;
+    padding: 16px;
 }
 .overflowInnercontent {
     z-index: 1;
@@ -72,8 +64,6 @@
     gap: 8px;
     overflow: hidden;
 }
-
-
 .fieldcontainer {
     display: flex;
     flex-direction: column;

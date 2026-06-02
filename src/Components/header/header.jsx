@@ -5,7 +5,6 @@ const HeaderComp = () => {
         <main className={styles.headerbody}>
             <section className={styles.headerleft}>
                 <img className={styles.logo} src='/logo.png' />
-
             </section>
         </main>
     )
