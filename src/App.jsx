@@ -1,4 +1,5 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 //pages
 import UserRegister from './Pages/userRegister/userRegister'
 import UserLogin from './Pages/userLogin/userLogin'
