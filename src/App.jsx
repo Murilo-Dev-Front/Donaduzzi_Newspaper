@@ -1,5 +1,9 @@
 import './App.css'
+<<<<<<< HEAD
 import 'bootstrap/dist/css/bootstrap.min.css'
+=======
+import "../node_modules/bootstrap/scss/bootstrap";
+>>>>>>> 54783fe9754f746a973051d5d6f69aabfeeae69b
 //pages
 import UserRegister from './Pages/userRegister/userRegister'
 import UserLogin from './Pages/userLogin/userLogin'
