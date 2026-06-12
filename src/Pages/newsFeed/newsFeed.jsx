@@ -6,6 +6,7 @@ const NewsFeed = () => {
         <main className={styles.main}>
 
             {/* Sidebar */}
+            
             <aside className={`${styles.sidebar} d-flex flex-column position-fixed top-0 start-0`}>
 
                 <img className={`${styles.logoSuperior} w-100`} src={Logocolegio} alt="Logo Colégio" />
